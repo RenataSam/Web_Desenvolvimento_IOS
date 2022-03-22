@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <title>Sweet and Love</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sweet and Love</h1>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend>Formulário</legend>
+            <p>
+                Gosta de carne?
+
+            </p>
+
+            <form action="mailto:renataataner17@gmail.com" name="Carnes"> 
+                <label for="tipodecarnes">Tipo de carne</label>
+                <input required="required" id="tipodecarne" type="text">
+
+                <h2>Experiência do Usuário</h2>
+        
+                    <!-- Campos obrigatórios -->
+                    <p><strong>Preencha os campos com os seus dados.</strong></p>
+        
+                    <label for="name">Nome: </label>
+                    <input required="" type="text" id="name" size="30" placeholder="Nome">
+                    <br><br>
+        
+                    <label for="age">Idade: </label>
+                    <input required="" type="number" id="age" size="10" min="0" max="100" placeholder="0">
+                    <br><br>
+        
+                    <label for="email">Email: </label>
+                    <input required="" type="email" id="email" size="30" placeholder="Email">
+                    <br><br>
+        
+                    <!-- Loja de atendimento -->
+                    <p><strong>Em qual loja você foi atendido(a)?</strong></p>
+        
+                    <select name="local" id="local">
+                        <option value="aclimacao">Aclimação</option>
+                        <option value="liberdade">Liberdade</option>
+                        <option value="tatuape">Tatuapé</option>
+                        <option value="saoJoaquim">São Joaquim</option>
+                    </select>
+                    <br><br>
+        
+                    <!-- Indicar ou não a loja -->
+                    <p><strong>Você indicaria nossa loja para um amigo(a)?</strong></p>
+        
+                    <input type="radio" name="indicar" id="sim" value="sim">
+                    <label for="sim">Sim</label>
+                    <br>
+        
+                    <input type="radio" name="indicar" id="nao" value="nao">
+                    <label for="nao">Não</label>
+                    <br><br>
+        
+                    <!-- Último pedido -->
+                    <p><strong>Qual foi a sua última compra na nossa loja?</strong></p>
+        
+                    <label for="pedido">Pedido: </label>
+                    <input type="text" id="pedido" size="20" placeholder="Ex: Bolo de Chocolate">
+                    <br><br>
+        
+                    <!-- Escolher  o que preferiu -->
+                    <p><strong>O que você mais gostou na nossa loja?</strong></p>
+        
+                    <input type="checkbox" value="doces" id="doces">
+                    <label for="doces">Doces</label>
+                    <br>
+        
+                    <input type="checkbox" value="ambiente" id="ambiente">
+                    <label for="ambiente">Ambiente</label>
+                    <br>
+        
+                    <input type="checkbox" value="entrega" id="entrega">
+                    <label for="entrega">Entrega</label>
+                    <br>
+        
+                    <input type="checkbox" value="atendimento" id="atendimento">
+                    <label for="atendimento">Atendimento</label>
+                    <br>
+        
+                    <input type="checkbox" value="valores" id="valores">
+                    <label for="valores">Valores</label>
+                    
+                <!--Tipo rande-->
+                1
+                <input type="range" list="valor_1" min="1" max="10">
+                10
+                <datalist id="valor_1"> 
+        
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+        
+                </datalist>
+                
+                
+        
+                <br><br>
+                
+        
+                <textarea placeholder="Escreva aqui" name="Caixa" id="Caixa" cols="30" rows="15"></textarea>
+               
+                <br><br>
+        
+                    <!-- Enviar formulário -->
+                    <input type="submit">
+        
+                    <br><br>
+                
+
+            </form>
+
+        </fieldset>
+
+
+    </main>
+
+    <footer>
+        <p><small>Ios - Instituto da Oportunidade Social (©)</small></p>
+    </footer>
+
+
+
+</body>
+</html>
