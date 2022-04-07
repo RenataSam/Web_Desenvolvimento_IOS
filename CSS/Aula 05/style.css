@@ -1,0 +1,81 @@
+body{
+    background-color: aliceblue;
+    color:#ffffff;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #333333;
+    background-image: url('junji.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ header{
+     background-color: #070707;
+     color: aliceblue;
+     text-align: center;
+     line-height: 300%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-shadow: 3px 3px 2px #a66cf1;
+     padding: 1em;   
+ }
+ a {
+    color:#ffffff;
+   
+ }
+ h2{
+     background-color:;
+     font-family: Papyrus, fantasy;
+     text-align: center;
+     border-bottom: 2px dahed #cccccc;
+ }
+ p{
+     font-size: 0.9em;
+     text-indent: 3em;
+ }
+ ul{
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+footer{
+    color:#333333;
+    font-style:italic;
+    font-size:0,75em;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    font-weight:bolder;
+}
+
+img {
+    height: 520px;
+    width: 400px;
+}
+
+figure {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+   figure div {
+    border: 3px solid #ffffff;
+   }
+
+figcaption {
+    text-align: center;
+    font-family: Papyrus, fantasy;
+   }
+
+
+footer {
+    color: #ffffff;
+    font-size: .75em;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   
+
