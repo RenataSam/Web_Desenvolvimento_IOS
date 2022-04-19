@@ -7,17 +7,26 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-
-  background-color: white;
+  height: ;
+  display: grid; /*Definindo que vamos trabalhar com Grids*/
+  grid-template-columns: 100px 100px; /*definir a quantidade de colunas*/
+  grid-template-rows: 100px 100px 100px; /*definir a quantidade de linhas e espaço de cada linha para outra*/
+  /*grid-template-areas: "primeiro primeiro peimeiro" "segundo segundo . terceiro" "quarto quarto quarto quarto"; /* . para atibuir um campo vazio*/
+  /*dar nomes aos elementos HTML*/
+  grid-template: "primeiro primeiro primeiro" 25px "segundo segundo segundo" 25% / auto 50px auto; /*a junção de template-columns/template-rows/template-areas*/
 }
+/* aling-content: space-evenly; */ /* alinha o grid por inteiro na vertical*/
+/* justify-content: start; */ /* alinha o grid por inteiro na horizontal*/
+/* place-content: start; */ /* a junção de aling-content e justify-content*/
+
+/* column-gap: 10px; /* para espaçamento entre colunas*/
+/* row-gap: 30px; /* para espaçamento entre linhas*/
 
 .item-1 {
   background-color: brown;
   width: 200px;
   height: 200px;
+  /*grid-areas: primeiro; */
 }
 
 .item-2 {
