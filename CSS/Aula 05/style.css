@@ -1,87 +1,105 @@
-body{
-    background-color: aliceblue;
-    color:#ffffff;
-    font-family:'Courier New', Courier, monospace;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background-color: #333333;
-    background-image: url('junji.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
- header div {
-     text-align: left;
- }
+@charset "utf-8";
 
- header{
-     background-color: #070707;
-     color: aliceblue;
-     text-align: center;
-     line-height: 200%;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     text-shadow: 3px 3px 2px #a66cf1;
-     padding: 1em;   
- }
- a {
-    color:#ffffff;
-   
- }
- h2{
-     background-color:;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     text-align: center;
-     border-bottom: 2px dahed #cccccc;
- }
- p{
-     font-size: 0.9em;
-     text-indent: 3em;
- }
- ul{
-     font-weight: bold;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
-footer{
-    color:#333333;
-    font-style:italic;
-    font-size:0,75em;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  background-image: url("junji.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column nowrap;
 }
-nav{
-    font-weight: bolder;
-    align-items: baseline;
+
+header {
+  background-color: #020e08;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header > h1 {
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+  color: #7b6d8d;
+  text-shadow: -1px -1px 0px #fff;
+  padding-left: 1em;
+  margin: 0;
+}
+header > nav {
+  display: flex;
+  flex: row wrap;
+  gap: 1em;
+}
+header > nav > a {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  color: #dbbadd;
+  margin: 0;
+}
+p {
+  font-size: 1.5;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+  padding: 0 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  color: #333333;
+  font-style: italic;
+  font-size: 0, 75em;
+  font-family: "Courier New", Courier, monospace;
+}
+nav {
+  font-weight: bolder;
+  align-items: baseline;
 }
 
 img {
-    height: 520px;
-    width: 400px;
+  height: 520px;
+  width: 400px;
 }
 
 figure {
-    width: 100%;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-   }
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   figure div {
-    border: 3px solid #ffffff;
-   }
+figure div {
+  border: 3px solid #ffffff;
+}
 
 figcaption {
-    text-align: center;
-    font-family: Papyrus, fantasy;
-   }
-
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 footer {
-    color: #ffffff;
-    font-size: .75em;
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-   }
-   
-
+  background-color: #020e08;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
