@@ -10,11 +10,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+ header div {
+     text-align: left;
+ }
+
  header{
      background-color: #070707;
      color: aliceblue;
      text-align: center;
-     line-height: 300%;
+     line-height: 200%;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-shadow: 3px 3px 2px #a66cf1;
      padding: 1em;   
@@ -44,7 +48,8 @@ footer{
     font-family: 'Courier New', Courier, monospace;
 }
 nav{
-    font-weight:bolder;
+    font-weight: bolder;
+    align-items: baseline;
 }
 
 img {
@@ -76,6 +81,7 @@ footer {
     font-size: .75em;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
    }
    
 
