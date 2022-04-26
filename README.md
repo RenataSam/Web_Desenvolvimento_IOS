@@ -5,4 +5,5 @@ ESTUDOS:
 * HTML
 * Git
 * CSS
+* JavaScript
 
