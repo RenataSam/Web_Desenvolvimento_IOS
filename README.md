@@ -1,2 +1,8 @@
-# Web_Desenvolvimento_IOS
-Repositório Curso de Desenvolvimento Web IOS 2022
+ # Programação Web  ૮ ⚆ﻌ⚆ა
+              
+ESTUDOS:
+
+* HTML
+* Git
+* CSS
+
