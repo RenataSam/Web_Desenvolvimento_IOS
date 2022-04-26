@@ -1,5 +1,11 @@
-# Programação Web 
-Estudos:
+|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+      # Programação Web  
+|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
+         \ (•◡•) /
+               
+ESTUDOS:
 
 * HTML
+* Git
 * CSS
+
