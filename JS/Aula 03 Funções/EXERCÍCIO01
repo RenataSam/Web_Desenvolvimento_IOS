@@ -1,0 +1,17 @@
+Exercício Lógica - Parte 01
+
+1) R: f - Yara mora 4° andar e tem um cachorro.
+
+2) R:  V V F 
+       V F F 
+       V F V
+       F F V 
+
+3)R: O gato no sótão e o rato está no quarto.
+
+4)						
+	        NOME  IDADE	ANIMAL	 MAIÔ	 SUCO 	  PROTETOR 
+MENINA 1	RAQUEL	11	GATO	 BRANCO  LARANJA  FPS 45
+MENINA 2	VIVIAN	10	PÁSSARO	 AZUL	 LIMÃO 	  FPS 55
+MENINA 3	BRUNA	9	CACHORRO AMARELO MARACUJÁ FPS 40
+MENINA 4	ANA 	8	PEIXE	 VERDE	 MORANGO  FPS 50
