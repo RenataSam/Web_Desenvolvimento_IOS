@@ -1,3 +1,116 @@
 @charset "utf-8";
 
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: "Helvetica,Arial,sans-serif";
+  background-image: url(parede.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+}
+header {
+    background-color: #0b0f0f;
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+    
+  }
+
+ header a {
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: #00a5a5;
+    text-shadow: -1px -1px 0px #fff;
+  }
+
+  main h1 {
+    font-family: Apple Chancery, cursive;
+    text-align: center;
+    color: #d7fdfd;
+    text-shadow: -1px -1px 0px rgb(0, 0, 0);
+  }
+
+  main
+  {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+  }
+  
+  main #content
+  {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-top: 2rem;
+  }
+  
+  main #content .row
+  {
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 2rem;
+      display: flex;
+  }
+  
+  main #content .row figure
+  {
+      width: 10%;
+  }
+  
+  main #content .row figure img
+  {
+      height: 300px;
+     
+  }
+  
+  figure figcaption{
+      font-family: "bebas_neueregular",sans-serif;
+      text-align: center;
+      font-size: 2rem;
+      text-emphasis: none;
+      
+  }
+  
+  main #content .row article
+  {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  main #content .row article .emphasis
+  {
+      font-family: 'Reggae One', cursive;
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-align: center;
+      color: #EEEEEE;
+      width: 100%;
+  }
+  
+  main #content .row article p
+  {
+      width: 50%;
+      margin: 0 auto;
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #EEEEEE;
+  }
