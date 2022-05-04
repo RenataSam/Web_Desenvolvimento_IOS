@@ -27,11 +27,11 @@ const somaAddNums = () => {
     return num1 + num2;
 } 
 
-//Criando Objetos
+//Criando Objetos = propriedade e valor 
 const aluno = {
     primeiroNome: 'Matheus',
     segundoNome: 'lost',
-    idade: '19', 
+    idade: '19',   
 }
 console.clear();
 const boasVindas = () => {

@@ -12,19 +12,27 @@ body {
   display: flex;
   flex-flow: column nowrap;
 }
+header > img {
+    margin-top: 0%;
+    margin-left: 10%;
+    position: sticky;
+    height: 40%;
+    width: 15%;
+  }
+
 header {
     background-color: #0b0f0f;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 
 header nav {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     padding-right: 1rem;
     
   }
@@ -35,7 +43,6 @@ header nav {
     font-size: 2rem;
     text-decoration: none;
     text-align: center;
-    align-items: center;
     color: #00a5a5;
     text-shadow: -1px -1px 0px #fff;
   }
@@ -72,7 +79,7 @@ header nav {
   
   main #content .row figure
   {
-      width: 10%;
+      width: 30%;
   }
   
   main #content .row figure img
@@ -82,9 +89,9 @@ header nav {
   }
   
   figure figcaption{
-      font-family: "bebas_neueregular",sans-serif;
+      font-family: Apple Chancery, cursive;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.25rem;
       text-emphasis: none;
       
   }
@@ -108,9 +115,18 @@ header nav {
   
   main #content .row article p
   {
-      width: 50%;
+      width: 70%;
       margin: 0 auto;
-      font-size: 1.25rem;
-      font-weight: 400;
-      color: #EEEEEE;
+      font-size: 1.75rem;
+      font-weight: 200;
+      color: #eeeeee;
+      
   }
+
+  footer {
+    background-color: #0b0f0f;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+  }
+  
